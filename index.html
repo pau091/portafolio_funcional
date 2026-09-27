@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <title data-en="Pau Pixel · Junior Developer">Pau Pixel · Desarrolladora Junior</title>
+  <meta name="description" content="Portafolio de Pau, Junior Developer en formación en Campuslands. Code, learn, create." />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8'><rect width='8' height='8' fill='%23FFF5EC'/><rect x='1' y='1' width='6' height='3' fill='%234C1D3D'/><rect x='2' y='3' width='4' height='3' fill='%23FFBB94'/><rect x='2' y='6' width='4' height='2' fill='%23DC586D'/></svg>" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Gloock&family=Hanken+Grotesk:wght@400;500;600;700&family=Silkscreen&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main" data-en="Skip to content">Saltar al contenido</a>
+
+  <!-- ================= NAVBAR ================= -->
+  <header class="nav" id="nav">
+    <div class="nav__inner">
+      <a class="nav__logo" href="#home" aria-label=" ir al inicio" data-en-aria="go to home"> <span></span></a>
+
+      <button class="lang-toggle" id="langToggle" type="button" aria-label="Switch to English">
+        <span class="lang-toggle__opt" data-lang="es">ES</span>
+        <span class="lang-toggle__opt" data-lang="en">EN</span>
+      </button>
+
+      <button class="nav__toggle" id="navToggle" aria-expanded="false" aria-controls="navMenu" aria-label="Abrir menú">
+        <span></span><span></span><span></span>
+      </button>
+
+      <nav class="nav__menu" id="navMenu" aria-label="Principal" data-en-aria="Main">
+        <ul>
+          <li><a href="#home" data-en="Home">Inicio</a></li>
+          <li><a href="#about" data-en="About">Sobre mí</a></li>
+          <li><a href="#journey" data-en="Journey">Recorrido</a></li>
+          <li><a href="#skills" data-en="Skills">Habilidades</a></li>
+          <li><a href="#projects" data-en="Projects">Proyectos</a></li>
+          <li><a href="#future" data-en="Future">Futuro</a></li>
+          <li><a href="#contact" class="nav__cta" data-en="Contact">Contacto</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+
+    <!-- ================= HERO ================= -->
+    <section class="hero" id="home">
+      <div class="container hero__inner">
+        <div class="hero__labels"></div>
+
+        <div class="hero__heading">
+          <h1 class="hero__title" data-en="Hi, I'm Pau.">Hola, soy Pau.</h1>
+          <span class="hero__star" aria-hidden="true"></span>
+        </div>
+
+        <div class="hero__window">
+          <div class="pau pau--peek pau--build" data-pose="hero" role="img" aria-label="Pau Pixel con audífonos, asomándose sobre el borde" data-en-aria="Pau Pixel with headphones, peeking over the edge"></div>
+          <span class="cube" data-depth="0.12" style="--x:3%;  --y:10%; --s:74px; --rot:-14deg" data-label="&lt;/&gt;"></span>
+          <span class="cube" data-depth="0.2"  style="--x:17%; --y:52%; --s:58px; --rot:10deg"  data-label="JS"></span>
+          <span class="cube" data-depth="0.16" style="--x:78%; --y:46%; --s:62px; --rot:-8deg"  data-label="Py"></span>
+          <span class="cube" data-depth="0.1"  style="--x:88%; --y:-8%; --s:84px; --rot:16deg"  data-label="{ }"></span>
+        </div>
+        <p class="hero__welcome" data-en="/Welcome/">/Bienvenidos/</p>
+
+        <div class="hero__footer">
+          <div class="hero__intro">
+            <p class="hero__role" data-en="Junior Developer">Desarrolladora Junior</p>
+            <p class="hero__lead" data-en="Building solutions, learning technology and turning ideas into projects.">Construyendo soluciones, aprendiendo tecnología y convirtiendo ideas en proyectos.</p>
+          </div>
+          <div class="hero__actions">
+            <a class="btn btn--primary" href="#projects" data-en="View my projects">Ver mis proyectos</a>
+            <a class="btn btn--ghost" href="#about" data-en="About me">Sobre mí</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= ABOUT ================= -->
+    <section class="section section--about" id="about">
+      <div class="container split">
+        <div class="split__art split__art--panel" data-reveal>
+          <div class="pau pau--lg" data-pose="wave" role="img" aria-label="Pau Pixel saludando" data-en-aria="Pau Pixel waving hello"></div>
+        </div>
+        <div class="split__body">
+          <h2 class="section-title" data-reveal><span class="section-title__num"></span> <span data-en="About me">Sobre mí</span></h2>
+          <p class="section-intro" data-reveal data-en="I'm a junior developer in training, building my professional profile in software.">Soy desarrolladora junior en formación y estoy construyendo mi perfil profesional en el área de software.</p>
+
+          <div class="about-blocks">
+            <article class="about-block" data-reveal>
+              <h3 data-en="What I've done">Lo que he hecho</h3>
+              <p data-en="I've built academic and personal projects that have helped me grow as a Junior Developer.">He desarrollado proyectos académicos y personales que me han permitido crecer en mi desarrollo como desarrolladora Junior.</p>
+            </article>
+            <article class="about-block" data-reveal>
+              <h3 data-en="What drives me">Lo que me mueve</h3>
+              <p data-en="Solving problems through technology and learning new tools along the way.">Resolver problemas mediante tecnología y aprender herramientas nuevas en el camino.</p>
+            </article>
+            <article class="about-block" data-reveal>
+              <h3 data-en="Where I'm headed">Hacia dónde voy</h3>
+              <p data-en="Keep growing in software development, to get new opportunities.">Seguir creciendo en desarrollo de software, para conseguir nuevas oportunidades.</p>
+            </article>
+            <article class="about-block about-block--traits" data-reveal>
+              <h3 data-en="Strengths">Fortalezas</h3>
+              <ul class="chips">
+                <li data-en="Responsible">Responsable</li><li data-en="Creative">Creativa</li><li data-en="Curious">Curiosa</li><li data-en="Solution-oriented">Orientada a soluciones</li>
+              </ul>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= JOURNEY ================= -->
+    <section class="section section--tinted" id="journey">
+      <div class="container">
+        <h2 class="section-title" data-reveal><span class="section-title__num"></span> <span data-en="My journey">Mi recorrido</span></h2>
+        <p class="section-intro" data-reveal data-en="&lt;strong&gt;Campuslands&lt;/strong&gt; has been a key part of my training as a junior developer. This is the path I've taken there, and it's still going.">
+          <strong>Campuslands</strong> ha sido una parte importante de mi formación como programadora junior. Este es el recorrido que he hecho allí, y todavía sigue.
+        </p>
+
+        <!-- Edita los pasos en script.js → JOURNEY -->
+        <ol class="timeline" id="timeline"></ol>
+      </div>
+    </section>
+
+    <!-- ================= SKILLS ================= -->
+    <section class="section" id="skills">
+      <div class="container split split--reverse">
+        <div class="split__art" data-reveal>
+          <div class="orbit">
+            <div class="pau pau--lg" data-pose="code" role="img" aria-label="Pau Pixel rodeada de íconos de código" data-en-aria="Pau Pixel surrounded by code icons"></div>
+            <span class="orbit__icon" style="--a:0deg">&lt;/&gt;</span>
+            <span class="orbit__icon" style="--a:72deg">py</span>
+            <span class="orbit__icon" style="--a:144deg">{ }</span>
+            <span class="orbit__icon" style="--a:216deg">git</span>
+            <span class="orbit__icon" style="--a:288deg">SQL</span>
+          </div>
+        </div>
+        <div class="split__body">
+          <h2 class="section-title" data-reveal><span class="section-title__num"></span> <span data-en="My toolkit">Mis herramientas</span></h2>
+
+          <!-- Edita las tecnologías y su nivel en script.js → SKILLS -->
+          <div class="toolkit" id="toolkit"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= PROJECTS ================= -->
+    <section class="section section--tinted" id="projects">
+      <div class="container">
+        <div class="projects__head">
+          <div>
+            <h2 class="section-title" data-reveal><span class="section-title__num"></span> <span data-en="Selected projects">Proyectos destacados</span></h2>
+            <p class="section-intro" data-reveal data-en="What I've built while learning. Click a project to see the details.">Lo que he construido mientras aprendo. Haz clic en un proyecto para ver el detalle.</p>
+          </div>
+          <div class="pau pau--md" data-pose="inspect" role="img" aria-label="Pau Pixel analizando un proyecto" data-en-aria="Pau Pixel analyzing a project" data-reveal></div>
+        </div>
+
+        <!-- Los proyectos se cargan desde script.js → PROJECTS -->
+        <div class="projects" id="projectList"></div>
+      </div>
+    </section>
+
+    <!-- ================= BEYOND CODE ================= -->
+    <section class="section" id="beyond">
+      <div class="container split">
+        <div class="split__art split__art--panel split__art--berry" data-reveal>
+          <div class="pau pau--lg" data-pose="create" role="img" aria-label="Pau Pixel creando con herramientas de diseño" data-en-aria="Pau Pixel creating with design tools"></div>
+        </div>
+        <div class="split__body">
+          <h2 class="section-title" data-reveal><span class="section-title__num"></span> <span data-en="Beyond code">Más allá del código</span></h2>
+          <p class="section-intro" data-reveal data-en="Behind the code there's a creative person who keeps learning.">Detrás del código hay una persona creativa que sigue aprendiendo.</p>
+          <ul class="beyond" id="beyondList"></ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= FUTURE ================= -->
+    <section class="section section--tinted" id="future">
+      <div class="container">
+        <h2 class="section-title" data-reveal><span class="section-title__num"></span> <span data-en="What's next?">¿Qué sigue?</span></h2>
+        <p class="section-intro" data-reveal data-en="The path I want to follow.">El camino que quiero recorrer.</p>
+
+        <div class="path" id="goalPath">
+          <div class="path__start" data-reveal>
+            <div class="pau pau--head" data-pose="head" role="img" aria-label="Pau Pixel" data-en-aria="Pau Pixel"></div>
+            <span class="pixel-tag" data-en="Today">Hoy</span>
+          </div>
+          <ol class="path__steps" id="goalList"></ol>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= CONTACT ================= -->
+    <section class="section contact" id="contact">
+      <div class="container contact__card" data-reveal>
+        <div class="contact__art">
+          <div class="bubble" data-en="Let's build something!">¡Construyamos algo!</div>
+          <div class="pau pau--lg" data-pose="desk" role="img" aria-label="Pau Pixel sentada frente a su computador" data-en-aria="Pau Pixel sitting at her computer"></div>
+        </div>
+        <div class="contact__body">
+          <h2 class="section-title section-title--light"><span class="section-title__num"></span> <span data-en="Let's build something">Construyamos algo</span></h2>
+          <p class="contact__lead" data-en="Got an idea or a project, or want to know more about my work?">¿Tienes una idea, proyecto o quieres conocer más sobre mi trabajo?</p>
+          <!-- Los enlaces se configuran en script.js → CONTACT -->
+          <div class="contact__links" id="contactLinks"></div>
+          <p class="contact__motto" data-en="Always learning. Always building.">Siempre aprendiendo. Siempre construyendo.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ================= PROJECT MODAL ================= -->
+  <dialog class="modal" id="projectModal" aria-labelledby="modalTitle">
+    <div class="modal__inner">
+      <button class="modal__close" id="modalClose" aria-label="Cerrar detalle" data-en-aria="Close details">×</button>
+      <div class="modal__media" id="modalMedia"></div>
+      <div class="modal__content">
+        <h3 class="modal__title" id="modalTitle"></h3>
+        <div class="modal__grid">
+          <section><h4 data-en="Overview">Resumen</h4><p id="modalOverview"></p></section>
+          <section><h4 data-en="Technologies">Tecnologías</h4><ul class="tech-list" id="modalTech"></ul></section>
+          <section><h4 data-en="What I learned">Qué aprendí</h4><p id="modalLearned"></p></section>
+        </div>
+        <div class="modal__actions" id="modalActions"></div>
+      </div>
+    </div>
+  </dialog>
+
+  <script src="script.js"></script>
+</body>
+</html>
