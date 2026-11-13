@@ -539,6 +539,9 @@ h3 { font-family: var(--font-display); font-size: 1.35rem; }
 .contact__links { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: .8rem; max-width: 440px; }
 .btn--contact { background: var(--cream); border: 2px solid var(--burgundy); box-shadow: 0 4px 0 var(--burgundy); }
 .btn--contact:hover { transform: translateY(-3px); box-shadow: 0 7px 0 var(--burgundy); background: var(--burgundy); color: var(--cream); }
+.contact__cv { margin-top: 1.75rem; max-width: 440px; }
+.contact__cv-title { font-family: var(--font-pixel); font-size: 1rem; margin: 0 0 .75rem; }
+.contact__cv-actions { display: flex; flex-wrap: wrap; gap: .8rem; }
 .contact__motto { margin-top: 1.75rem; font-family: var(--font-pixel); font-size: .85rem; }
 .section-title--light .section-title__num { color: var(--burgundy); }
 
@@ -668,4 +671,6 @@ h3 { font-family: var(--font-display); font-size: 1.35rem; }
   .contact__links { grid-template-columns: 1fr 1fr; }
   .projects__head { flex-direction: column-reverse; align-items: start; gap: 0; }
   .orbit__icon { font-size: .72rem; }
+
+  
 }
